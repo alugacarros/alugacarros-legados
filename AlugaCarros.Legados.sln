@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D69EBE2-55DB-472B-A232-78276B41B35C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{558FBDF2-A205-43EE-9810-4DC941377332}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sql\VehicleGroups.sql = ..\Sql\VehicleGroups.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlugaCarros.Legados.Api", "src\AlugaCarros.Legados\AlugaCarros.Legados.Api.csproj", "{DD8BEAF8-61BF-44ED-91CE-510846EB21DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9F9AE9E2-45BF-4E43-A8B2-8D5363083D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlugaCarros.Legados.Api.Tests", "AlugaCarros.Legados.Api.Tests\AlugaCarros.Legados.Api.Tests.csproj", "{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD8BEAF8-61BF-44ED-91CE-510846EB21DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8BEAF8-61BF-44ED-91CE-510846EB21DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8BEAF8-61BF-44ED-91CE-510846EB21DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8BEAF8-61BF-44ED-91CE-510846EB21DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD8BEAF8-61BF-44ED-91CE-510846EB21DE} = {7D69EBE2-55DB-472B-A232-78276B41B35C}
+		{9F9AE9E2-45BF-4E43-A8B2-8D5363083D31} = {7D69EBE2-55DB-472B-A232-78276B41B35C}
+		{70C35BF9-BFC6-42D1-8E63-A18D2A5A7B76} = {9F9AE9E2-45BF-4E43-A8B2-8D5363083D31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57BEA492-361D-4C39-839F-B3BFCA9C6E19}
+	EndGlobalSection
+EndGlobal
